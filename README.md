@@ -1,9 +1,10 @@
-# Welcome to your CDK TypeScript project
+## Endpoint
+`https://1w58po44ae.execute-api.ap-northeast-1.amazonaws.com/prod/`
 
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
+## functions
+### available methods
+/:GET  you can get something.
+/:POSt you can post something,then server returns it.
 ## Useful commands
 
 * `npm run build`   compile typescript to js
