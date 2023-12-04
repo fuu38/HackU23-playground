@@ -4,7 +4,15 @@
 ## functions
 ### available methods
 /:GET  you can get something.
-/:POSt you can post something,then server returns it.
+/:POST you can post something,then server returns it.
+
+### How to try
+just execute like this
+```
+curl -X POST -H "Content-Type: application/json" -d \
+'{"key1":"value1", "key2":"value2"}' \
+https://1w58po44ae.execute-api.ap-northeast-1.amazonaws.com/prod/
+```
 ## Useful commands
 
 * `npm run build`   compile typescript to js
