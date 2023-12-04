@@ -3,7 +3,8 @@
 
 ## functions
 ### available methods
-/:GET  you can get something.
+/:GET  you can get something.  
+
 /:POST you can post something,then server returns it.
 
 ### How to try
